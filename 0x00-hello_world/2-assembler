@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -c "$CFILE=2-assembler" -o "${CFILE%.*}.s"
+CFILE="main.c" gcc -S -c "$CFILE=2-assembler" -o "${CFILE%.*}.s"
