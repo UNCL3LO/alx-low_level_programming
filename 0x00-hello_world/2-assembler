@@ -1,2 +1,2 @@
 #!/bin/bash
-export CFILE=main.c gcc -S -c -v "$CFILE" -o "$(basename "$CFILE" .c).s"
+export CFILE=2-main.c gcc -S -c -v "$CFILE" -o "$(basename "$CFILE" .c).s"
