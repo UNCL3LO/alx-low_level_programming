@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE="0-main.o"; gcc -c $CFILE -o o
+CFILE="0-main.c"; gcc -c "$CFILE" -o "$(basename "${CFILE%.*}.o")"
