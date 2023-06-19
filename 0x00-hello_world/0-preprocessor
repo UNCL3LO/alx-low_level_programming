@@ -1,2 +1,2 @@
 #!/bin/bash
-export CFILE="main.c"; gcc -E $CFILE > output.c && cat output.c
+gcc -E $CFILE -o output.c
