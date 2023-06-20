@@ -13,5 +13,10 @@ void jack_bauer(void);
 void times_table(void);
 int add(int num1, int num2);
 void print_to_98(int n);
+void print_times_table(int n);
+int sum_of_multiples(void);
+void print_fibonacci_numbers(void);
+void print_even_fibonacci_sum(void);
+void print_fibonacci_98(void);
 
 #endif /* MAIN_H */
