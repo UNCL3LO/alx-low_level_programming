@@ -1,16 +1,27 @@
-#!/bin/bash
 #include "main.h"
+
 /**
- * print_alphabet - Prints the alphabet in lowercase
+ * main - Entry point of the program
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	print_alphabet();
+	return (0);
+}
+
+/**
+ * print_alphabet - Prints the alphabet in lowercase, followed by a new line
  */
 void print_alphabet(void)
 {
-char letter;
-for (letter = 'a'; letter <= 'z'; letter++)
-{
-_putchar(letter);
-}
-_putchar('\n');
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+		_putchar(letter);
+
+	_putchar('\n');
 }
 
 /**
@@ -21,6 +32,5 @@ _putchar('\n');
  */
 int _putchar(char c)
 {
-return (write(1, &c, 1));
+	return (write(1, &c, 1));
 }
-
