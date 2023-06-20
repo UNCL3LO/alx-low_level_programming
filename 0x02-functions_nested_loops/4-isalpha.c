@@ -1,5 +1,6 @@
 #include "main.h"
-/** Checking if c is 
+/**
+ * Checking if c is 
  * a letter
  */
 int _isalpha(int c)
