@@ -8,8 +8,8 @@ void _puts(char *str)
 {
 while (*str != '\0')
 {
-putchar(*str);
+fputc(*str, stdout);
 str++;
 }
-putchar('\n');
+fputc('\n', stdout);
 }
