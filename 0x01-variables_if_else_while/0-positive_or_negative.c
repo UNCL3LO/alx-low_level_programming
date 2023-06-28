@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-/* betty style doc for function main goes there 
+/* more headers goes there*/
+/* betty style doc for function main goes there
 *@n variable to be set to random value
 *Progran to set variable n to random value
-*Returns message 
+*Returns message
 */
 int main(void)
 {
@@ -17,7 +17,7 @@ if (n > 0)
 {
 printf("%d is positive\n", n);
 }
-else if (n == 0) 
+else if (n == 0)
 {
 printf("%d is zero\n", n);
 }
