@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/**more headers goes there
+/*more headers goes there
 *main -Entry point
 *@n variable to be set to random value
 *Progran to set variable n to random value
