@@ -12,7 +12,6 @@ int i;
 while (s[length] != '\0')
 length++;
 /* Print the characters in reverse order*/
-int i;
 for (i = length - 1; i >= 0; i--)
 putchar(s[i]);
 putchar('\n');
