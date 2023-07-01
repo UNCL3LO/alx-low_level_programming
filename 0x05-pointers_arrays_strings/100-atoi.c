@@ -14,10 +14,6 @@ if (s[0] == '-')
 sign = -1;
 i++;
 }
-else if (s[0] == '+')
-{
-i++;
-}
 /* Converting the string to integer */
 while (s[i] != '\0')
 {
