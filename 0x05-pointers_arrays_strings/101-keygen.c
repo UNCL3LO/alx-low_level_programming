@@ -8,9 +8,10 @@
  */
 int main(void)
 {
-srand(time(NULL)); /* Initialize the random number generator with the current time */
 char password[7]; /* Assume password length is 6 characters */
-for (int i = 0; i < 6; i++)
+int i;
+srand(time(NULL)); /* Initialize the random number generator with the current time */
+for (i = 0; i < 6; i++)
 {
 /* Generate a random character within the ASCII range of printable characters */
 password[i] = rand() % 94 + 33;
