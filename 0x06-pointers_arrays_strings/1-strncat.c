@@ -23,5 +23,5 @@ src++;
 n--;
 }
 *dest_ptr = '\0'; /* Add null terminator to the concatenated string */
-return dest;
+return (dest);
 }
