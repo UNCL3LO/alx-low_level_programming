@@ -18,5 +18,6 @@ password[i] = rand() % 94 + 33;
 }
 password[6] = '\0'; /* Null-terminate the password string */
 printf("%s\n", password); /* Print the generated password */
+fprintf(stderr, ""); /* Ignore stderr */
 return (0);
 }
