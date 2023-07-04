@@ -1,3 +1,4 @@
+#include <ctype.h>
 /**
  * _isdigit - checks if a number is between 0 and 9
  * @c: the integer to be checked
